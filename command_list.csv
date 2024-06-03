@@ -1,0 +1,55 @@
+    1  cd C:\Users\ezgi\OneDrive\Desktop/GIT
+    2  git config --global user.name "semperdest"
+    3  git config --global user.email kolyada.inna@gmail.com
+    4  git config --get user.name
+    5  git config --get.user.email
+    6  git config --get user.email
+    7  git clone https://github.com/semperdest/HW_100.git
+    8  git status
+    9  ls -1
+   10  cd C:\Users\ezgi\OneDrive\Desktop
+   11  clear
+   12  cd C:\Users\ezgi\OneDrive\Desktop\GIT
+   13  cd [200~C:\Users\ezgi\OneDrive\Desktop~
+   14  cd [200~C:\Users\ezgi\OneDrive\Desktop~
+   15  cd C:\Users\ezgi\OneDrive\Desktop
+   16  cd HW_100
+   17  cd C:\Users\ezgi\HW_100
+   18  git status
+   19  touch text_ignore.txt
+   20  nano .gitignore
+   21  cd HW_100
+   22  nano .gitignore
+   23  cd HW_100
+   24  nano .gitignore
+   25  cd HW_100
+   26  vim .gitignore
+   27  cd GIT
+   28  cd GIT
+   29  git config --global user.name "semperdest"
+   30  git config --global user.email kolyada.inna@gmail.com
+   31  git clone https://github.com/semperdest/HW_100.git
+   32  touch text_ignore.txt
+   33  cd HW_100
+   34  touch text_ignore.txt
+   35  vim .gitignore
+   36  git status
+   37  git add text_ignore.txt
+   38  git commit -m "Created a new file named text_ignore.txt"
+   39  touch main_test.txt
+   40  git add main_test.txt
+   41  git commit -m "Added main_test.txt"
+   42  git branch
+   43  git checkout -b develop
+   44  touch develop_test.txt
+   45  git add develop_test.txt
+   46  git commit -m "Added develop_test.txt"
+   47  vim develop_test.txt
+   48  git status
+   49  git add develop_test.txt
+   50  git commit -m "Added a name into develop_test.txt"
+   51  git checkout main
+   52  git merge develop
+   53  git log
+   54  git push
+   55  history > command_list.csv
